@@ -1,0 +1,1113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.unique-container-style {
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  overflow-x: hidden;
+}
+
+.vertical-centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 5%;
+  background: url("assets/background.jpeg") 50% / cover no-repeat;
+  border: none;
+}
+
+.work-delivery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1601px;
+  padding: 35px 20px 36px;
+}
+
+.horizontal-flex-container-with-gap {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  align-self: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 530px;
+  margin-left: 0;
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px);
+}
+
+.social-icon-img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.section-title-text-style {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 16px Montserrat, sans-serif;
+  color: white;
+}
+
+.exclusive-wooden-products1 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 200px;
+  width: 100%;
+}
+
+.exclusive-wooden-products {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 clamp(64px, 8vw, 128px) Poller One;
+  color: #3e2b18;
+  text-align: left;
+}
+
+.exclusive-wooden-products-heading {
+  flex: 0 0 auto;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 68px;
+  margin-left: 0;
+  font: 700 clamp(28px, 4vw, 48px) "IBM Plex Serif", serif;
+  background: linear-gradient(141.4deg, rgba(157, 131, 97, 1) 25.79%, rgba(48, 34, 20, 1) 60.27%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exclusive-wooden-products-gallery {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 69px;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin-top: 359px;
+  padding-right: 20px;
+}
+
+.image-container-40px-square {
+  box-sizing: border-box;
+  display: block;
+  width: 40px;
+  max-width: initial;
+  height: 40px;
+  border: none;
+  object-fit: cover;
+}
+
+.unique-wood-crafting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.wooden-craftsmanship-styles {
+  flex: 0 0 auto;
+  width: 100%;
+  background: #302214;
+}
+
+.woodcraft-studio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background: #302214;
+}
+
+.unique-woodworks-style1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 1567px;
+  width: 90%;
+  padding: 97px 20px 110px;
+}
+
+.unique-woodworks-style {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 clamp(20px, 4vw, 32px) Montserrat, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.tree-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 126px 20px 81px;
+  width: 100%;
+  position: relative;
+}
+
+.tree-branch-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 140px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.tree-branch-container:hover {
+  transform: translateY(-5px);
+}
+
+.tree-branch-container.active {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.tree-branch-container:not(.active) {
+  opacity: 0.7;
+}
+
+.tree-image-text-block {
+  display: block;
+  flex: 0 0 auto;
+  max-width: initial;
+  height: 140px;
+  border: none;
+  border-radius: 100px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tree-branch-container.active .tree-image-text-block {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tree-text-styler {
+  flex: 0 0 auto;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 24px;
+  font: 700 20px "Kaisei HarunoUmi", serif;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.tree-branch-container.active .tree-text-styler,
+.tree-branch-container.active .cedar-title-style,
+.tree-branch-container.active .oceanic-heading {
+  color: #e6c797;
+  transform: translateY(5px);
+}
+
+.cedar-title-style {
+  flex: 0 0 auto;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 22px;
+  font: 700 20px "Kaisei HarunoUmi", serif;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.tree-item-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 140px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.tree-item-container:hover {
+  transform: translateY(-5px);
+}
+
+.tree-item-container.active {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.tree-item-container:not(.active) {
+  opacity: 0.7;
+}
+
+.oceanic-heading {
+  flex: 0 0 auto;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+  font: 700 20px "Kaisei HarunoUmi", serif;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.hero-image-styles {
+  display: block;
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 350px;
+  border: none;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.tree-details-wrapper {
+  background-color: #302214; /* Match this with your design */
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+.tree-image {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  transform: translateY(20px);
+}
+
+.tree-image.active {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 1;
+}
+
+.tree-detail-container {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  background: rgba(48, 34, 20, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
+  pointer-events: none;
+  text-align: center;
+}
+
+.tree-detail-container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tree-detail-text {
+  font: 300 18px Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.tree-detail-heading {
+  font: 700 24px "Kaisei HarunoUmi", serif;
+  color: #e6c797;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.wood-products-list-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background: #302214;
+}
+
+.tree-varieties-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 1682px;
+  width: 90%;
+  padding: 157px 20px 129px;
+}
+
+.tree-varieties-description-text-style {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 300 clamp(18px, 3vw, 24px)/40px Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.48px;
+}
+
+.blue-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background: #022339;
+}
+
+.project-gallery-container {
+  max-width: 1690px;
+  width: 90%;
+  padding: 48px 20px 78px;
+}
+
+.project-examples-heading {
+  padding-right: 4px;
+  padding-left: 4px;
+  width: 100%;
+}
+
+.showcase-heading {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font: 500 clamp(24px, 4vw, 36px) Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.project-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 103px;
+}
+
+@media (min-width: 992px) {
+  .project-details-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.slider-container {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.slider-track {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 320px;
+  position: relative;
+}
+
+.slider-rectangle {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+  transition: all 0.4s ease;
+}
+
+.slider-rectangle:first-child {
+  cursor: pointer;
+  background: #022339;
+}
+
+.slider-rectangle:last-child {
+  cursor: pointer;
+  background: #022339;
+}
+
+.slider-image {
+  width: calc(100% - 100px);
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.slider-prev, .slider-next {
+  width: 50px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+  outline: none;
+}
+
+.slider-prev:hover, .slider-next:hover {
+  color: #e6c797;
+}
+
+.slider-arrow {
+  width: 24px;
+  height: 24px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transition: all 0.3s ease;
+}
+
+.slider-prev .slider-arrow {
+  transform: rotate(-135deg);
+  margin-right: -10px;
+}
+
+.slider-next .slider-arrow {
+  transform: rotate(45deg);
+  margin-left: -10px;
+}
+
+.slider-prev:hover .slider-arrow, 
+.slider-next:hover .slider-arrow {
+  border-color: #e6c797;
+}
+
+.hotel-description-section {
+  flex: 0 1 auto;
+  padding: 20px;
+  margin-left: 0;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .hotel-description-section {
+    margin-left: 44px;
+    padding-bottom: 64px;
+    width: auto;
+  }
+}
+
+.header-title-style {
+  padding: 0;
+  margin: 0;
+  font: 600 clamp(24px, 4vw, 36px)/31px Montserrat, sans-serif;
+  color: white;
+  letter-spacing: 0.72px;
+}
+
+.elegant-text-block1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 41px;
+  font: 400 clamp(16px, 3vw, 24px)/31px Montserrat, sans-serif;
+  color: white;
+  text-align: left;
+  letter-spacing: 0.48px;
+}
+
+.project-details-container3 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 4px;
+  margin-top: 126px;
+}
+
+@media (min-width: 992px) {
+  .project-details-container3 {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.pub-description-section {
+  flex: 0 1 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .pub-description-section {
+    padding-bottom: 22px;
+    width: auto;
+  }
+}
+
+.pub-description-text-style {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 23px;
+  font: 400 clamp(16px, 3vw, 24px)/31px Montserrat, sans-serif;
+  color: white;
+  text-align: left;
+  letter-spacing: 0.48px;
+}
+
+.project-details-container1 {
+  width: 100%;
+  padding: 0 4px;
+  margin-top: 128px;
+}
+
+.project-details-container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.project-title-heading {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 300 clamp(24px, 4vw, 32px) Montserrat, sans-serif;
+  color: white;
+}
+
+.project-details-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 37px;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .project-details-container2 {
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: center;
+    margin-left: 0;
+  }
+}
+
+.facade-restoration-image {
+  display: block;
+  width: 10px;
+  max-width: initial;
+  height: 319px;
+}
+
+.elegant-text-block {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 13px;
+  font: 300 clamp(16px, 3vw, 24px) Montserrat, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.flex-row-with-button {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 68px;
+}
+
+@media (min-width: 992px) {
+  .flex-row-with-button {
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+  }
+}
+
+.gallery-description {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 300 clamp(18px, 3vw, 24px) Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .gallery-description {
+    text-align: left;
+  }
+}
+
+.gallery-button {
+  display: block;
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 400px;
+  height: 90px;
+  font: 400 24px Montserrat, sans-serif;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #65482b;
+  border-radius: 45px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.gallery-button:hover {
+  background: rgba(101, 72, 43, 0.2);
+  transform: translateY(-3px);
+}
+
+.dark-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0 20px;
+  background: #302214;
+}
+
+@media (min-width: 1200px) {
+  .dark-panel {
+    padding-right: 109px;
+  }
+}
+
+.delivery-options-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 107px 20px;
+}
+
+@media (min-width: 992px) {
+  .delivery-options-container2 {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+}
+
+.delivery-options-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .delivery-options-container1 {
+    width: 33%;
+    margin-bottom: 0;
+  }
+}
+
+.transport-info-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .transport-info-container {
+    padding-right: 48px;
+    padding-left: 115px;
+  }
+}
+
+.image-thumbnail-120x120 {
+  display: block;
+  width: 120px;
+  max-width: initial;
+  height: 120px;
+  border: none;
+  object-fit: cover;
+}
+
+.transport-info-block {
+  max-width: 332px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  font: 500 20px Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.delivery-card {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0 15px 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .delivery-card {
+    width: 33%;
+    margin-bottom: 0;
+  }
+}
+
+.delivery-info-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .delivery-info-container {
+    padding-right: 42px;
+    padding-left: 42px;
+  }
+}
+
+.delivery-info-text-style {
+  width: 196px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  font: 500 20px Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.delivery-options-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 22px;
+}
+
+@media (min-width: 992px) {
+  .delivery-options-container {
+    width: 33%;
+    align-items: center;
+  }
+}
+
+.product-card {
+  flex: 0 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .product-card {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+.pickup-info-text-style {
+  flex: 0 0 auto;
+  max-width: 122px;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  font: 500 20px Montserrat, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+@media (min-width: 992px) {
+  .contact-info-container {
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+    height: 111px;
+    padding: 0 20px;
+  }
+}
+
+.business-card-info {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 20px Montserrat, sans-serif;
+  color: white;
+}
+
+.gallery-slider-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-slider-content {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-current-image {
+  width: calc(100% - 100px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.full-gallery-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: opacity 0.5s ease;
+}
+
+.close-slider {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 40px;  
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+  transition: all 0.3s ease;
+}
+
+.close-slider:hover {
+  color: #e6c797;
+  transform: rotate(90deg);
+}
+
+.gallery-slider-controls {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.gallery-slider-controls .slider-prev,
+.gallery-slider-controls .slider-next {
+  width: 60px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001;
+}
+
+.gallery-slider-controls .slider-prev {
+  left: 20px;
+}
+
+.gallery-slider-controls .slider-next {
+  right: 20px;
+}
+
+.gallery-slider-controls .slider-prev:hover,
+.gallery-slider-controls .slider-next:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.gallery-slider-controls .slider-arrow {
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transition: all 0.3s ease;
+}
+
+.gallery-slider-controls .slider-prev .slider-arrow {
+  transform: rotate(-135deg);
+  margin-right: -5px;
+}
+
+.gallery-slider-controls .slider-next .slider-arrow {
+  transform: rotate(45deg);
+  margin-left: -5px;
+}
+
+.gallery-slider-controls .slider-prev:hover .slider-arrow,
+.gallery-slider-controls .slider-next:hover .slider-arrow {
+  border-color: #e6c797;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e6c797;
+}
+
+.exclusive-wooden-products-gallery a {
+  display: inline-block;
+  pointer-events: auto;
+}
+
+.exclusive-wooden-products-gallery img {
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.slider-image.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.gallery-slider-controls .slider-prev,
+.gallery-slider-controls .slider-next {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
